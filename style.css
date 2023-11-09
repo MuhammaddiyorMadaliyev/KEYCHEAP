@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family:'Titillium Web', sans-serif;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
+.box p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.links button{
+    padding: 10px;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.links button:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0px 10px 9px 2px grey;
+}
+.hero{
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+.hero p:hover {
+    color: gold;
+    cursor: pointer;
+}
+.hero:hover{
+    background-color: aqua;
+}
+
+.coll{
+    display: flex;
+    gap: 30px;
+}
+
+
+.hero_info{
+    background-image: url("./imgs/hero_info.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+.loho{
+    text-align: center;
+    color: white;
+}
+.loho h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.loho h1{
+    font-size: 40px;
+    margin-top: -80px;
+}
+
+.loho h1:hover{
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+}
+
+
+.loho h3:hover{
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+}
+
+
+.loho button{
+    padding: 10px;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.loho button:hover{
+    background-color: yellow;
+    color: black;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card{
+    width: 250px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 9px  2px rgb(174, 174, 174);
+    transition: all .5s ease;
+    overflow: hidden !important;
+    position: relative;
+}
+
+.card:hover{
+    background-color:  greenyellow;
+}
+.info{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    padding: 10px;
+    background: linear-gradient(black, white);
+    transition: all .5s ease;
+    margin-top: 50px;
+}
+
+.card:hover .info{
+    margin-top: -157px;
+}
+.lopor h1{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.shopping{
+    width: 264px;
+    padding: 10px;
+    box-shadow: 5px 5px 9px  2px rgb(174, 174, 174);
+    border-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.lopiing{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.koko button{
+    padding: 5px 20px;
+    background-color: #FF3A3A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.loko{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.loko h3{
+    color: rgb(114, 114, 114);
+    text-decoration: line-through;
+}
+
+.home{
+    text-align: center;
+}
+
+.mol{
+    text-align: center;
+}
+.mol h3{
+    color: #8B00FF;
+    margin-bottom: 15px;
+}
+
+.mol button{
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 10px 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+
+.joj{
+    position: absolute; 
+    transition: all .5s ease;
+    top: -50px;
+}
+
+.ingo{
+    margin-bottom: 10px;
+}
+
+.shopping:hover .joj{
+    top: 15px;
+}
+.koko{
+    position: absolute;
+    right: -150px;
+    top: -50px;
+    transition: all .5s ease;
+}
+.shopping:hover .koko{
+    top: 15px;
+    right: 10px;
+}
+.mol:hover button{
+    background-color: yellowgreen;
+    cursor: pointer;
+    color: black;
+}
+
+
+.kokoi{
+    width: 10px;
+    height: 130px;
+    background-color: #8B00FF;
+    
+}
+
+.office{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.lopor{
+    margin-bottom: 45px;
+}
